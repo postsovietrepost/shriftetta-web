@@ -1,5 +1,5 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-/* @import "responsive.css"; */
+@import "responsive.css";
 @import "content.css";
 @import "layout.css";
