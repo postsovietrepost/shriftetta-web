@@ -3,14 +3,14 @@ div .f {background-size: cover; width: 161%;height: 135%; margin-left: -26%;marg
 }
 @media all and (max-width: 1680px) and (min-width: 1050px){
 div .b {width: 87%; margin-left: 7%;}
-div .r {margin-top: -31%;height: 153%;margin-left: -21%;}
+div .r {margin-top: -10%;height: 153%;margin-left: -4%;width: 113%;}
 div .t {margin-top: -8%;width: 84%;}
-div .vibration {margin-left: 4%;margin-top: 2%;}
-div .j {width: 114%;margin-top: -16%;margin-left: -16%;height: 130%;}
-div .o {width: 105%; height: 154%;margin-left: -14%;  margin-top: -30%;}
+div .vibration {margin-left: 4%;margin-top: 0%;}
+div .j {width: 122%;margin-top: -11%;margin-left: -11%;height: 130%;}
+div .o {width: 120%; height: 154%;margin-left: -10%;  margin-top: -24%;}
 div .sh {width: 111%;margin-left: -10%;}
-div .eb {width: 41%;margin-top: -5%;height: 106%;margin-left: 34%;}
-div .rt {height: 141%;margin-top: -24%;width: 104%;margin-left: -15%;}
+div .eb {width: 41%;margin-top: -3%;height: 106%;margin-left: 29%;}
+div .rt {height: 161%;margin-top: -24%;width: 135%;margin-left: -15%;}
 div .tr {height: 137%;margin-top: -15%;margin-left: 18%;}
 div .ss {width: 80%;margin-left: 13%;}
 div .drama {width: 90%;margin-left: 8%;}
@@ -18,8 +18,8 @@ div .kirill {width: 148%;}
 div .bukvi {width: 208%;font-size: 20px;}
 div .rating {font-size: 50px;}
 div .shtrih {margin-top: -0.6%;height: 155%;}
-div .biletramka1 {margin-top: 2.5%;;height: 223.8%;}
-div .biletramka2 {height: 224.2%;margin-top: -36.9%;}
+div .biletramka1 {margin-top: -0.5%;;height: 102.8%;}
+div .biletramka2 {height: 104.2%;;margin-top: -36.9%;}
 div .smallqvadrat4 {height: 107%;}
 div .ramka1copy {height: 18.65%;}
 div .qvadrat3 {height: 119.4%;}
@@ -37,8 +37,8 @@ div .ramka1copy {height: 18.75%;}
 div .qvadrat4 {margin-top: -0.5%;width: 102.1%;margin-left: -1%;}
 div .qvadrat3 {height: 123.4%;}
 div .shtrih {height: 158%;}
-div .biletramka2 {height: 224.5%;margin-top: -36.6%;}
-div .biletramka1 {margin-top: 2.9%;height: 224.6%;}
+div .biletramka2 {height: 103.5%;margin-top: -36.3%;}
+div .biletramka1 {margin-top: -0.8%;height: 103.6%;}
 div .special {font-size: 8px;margin-top: -3%;}
 div .ofbilet {font-size: 8px;margin-top: -9%;}
 div .nazvanie {font-size: 8px;margin-top: -26%;}
@@ -52,7 +52,7 @@ div .rate {font-size: 11px;}
 div .pyat {margin-top: -18%;font-size: 20px;}
 div .kirill {margin-left: 136%;margin-top: -24%;font-size: 19px;}
 div .bukvi {margin-top: -33%;font-size: 17px;}
-div .rating {margin-top: -13%;font-size: 42px;}
+div .rating {margin-top: -25%;font-size: 42px;}
 div .nol {margin-top: 26%;font-size: 8px;}
 div .data {font-size: 11px;}
 div .january {font-size: 11px;}
@@ -88,6 +88,7 @@ div .corobka3 {display: none;}
 div .corobka8 {display: none;}
 div .corobka12 {display: none;}
 div .rop {width: 33.875%;}
+div .rating {font-size: 40px;margin-top: -26%;}
 div .corobka1 {width: 34.875%;margin-left:33.3%;}
 div .corobka2 {width: 32.3%;margin-left:68%;}
 div .corobka4 {width: 50.4%;margin-left:-0.2%;margin-top: -0.2%;height: 36.3%;}
@@ -108,8 +109,8 @@ div .kirill {font-size: 17px;}
 div .pyat {font-size: 17px;}
 div .bukvi {font-size: 15px;margin-top: -38%;}
 div .ramka1 {height: 88.3%;}
-div .biletramka1 {margin-top: 2%;height: 228%;}
-div .biletramka2 {height: 226.9%;margin-top: -36.6%;}
+div .biletramka1 {margin-top: -0.8%;height: 105.8%;}
+div .biletramka2 {height: 105.9%;margin-top: -36.6%;}
 div .shtrih {height: 166%;margin-top: -0.3%;}
 div .data {font-size: 10px;}
 div .january {font-size: 10px;}
