@@ -267,7 +267,7 @@ box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.vibration{
+/* .vibration{
     display: block;
     position: relative;
     height: 100%;
@@ -282,8 +282,64 @@ box-sizing: border-box;
 
     .vibration:hover{
       animation-play-state: running;}
+} */
+
+.y1 {
+  background: url('images/y2.png');
+  width: 65px;
+  height: 133px;
+  left: 115px;
+  top: 14px;
+  display: block;
+  position: absolute;
+  background-position: 0px top;
+  background-size: auto 100%;
 }
-@-webkit-keyframes vibration {
+.y1-h {
+  background: url('images/y2.png');
+  width: 129px;
+  height: 130px;
+  display: block;
+  left: -29px;
+  top: -4px;
+  right: 0;
+  background-position: -100px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: y1h 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.y1-f {
+  background: url('images/y2.png');
+  width: 124px;
+  height: 128px;
+  display: block;
+  left: -30px;
+  right: 0;
+  top: -5.8px;
+  background-position: -400px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: y1f 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+.y1:hover .y1-h, .y1:hover .y1-f {
+  animation-play-state: running;
+}
+
+@keyframes y1h {
+  0% {background-position: -100% top;}
+  33% {background-position: -294% top;}
+  66% {background-position: -310.5% top;}
+}
+@keyframes y1f {
+  0% {background-position: -502.8% top;}
+  66% {background-position: -600% top;}
+  /* 66% {background-position: -780% top;} */
+}
+
+/* @-webkit-keyframes vibration {
     0%, 25% {
         left: -1px;
         top:-1px;
@@ -344,7 +400,7 @@ box-sizing: border-box;
         -webkit-transform: translateX(4%);
         transform: translateX(4%);
     }
-}
+} */
 
 .corobka1 {
 position: relative;
@@ -398,7 +454,7 @@ border: 3px solid #FFFFFF;
 box-sizing: border-box;
 }
 
-.t {
+/* .t {
   height: 109%;
   width: 104%;
   margin-top: -4%;
@@ -419,7 +475,56 @@ box-sizing: border-box;
 
 .t:hover {
   animation-play-state: running;
+} */
+
+.t1 {
+  background: url('images/t.png');
+  width: 97px;
+  height: 115px;
+  left: 107px;
+  top: 33px;
+  display: block;
+  animation: t1 2s alternate infinite;
+  position: absolute;
+  background-position: 0px top;
+  background-size: auto 100%;
 }
+.t1-h {
+  background: url('images/t.png');
+  width: 163.5px;
+      height: 132px;
+      display: block;
+      left: -48px;
+      top: -9px;
+
+  right: 0;
+  background-position: -100px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: t1h 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.t1:hover .t1-h{
+  animation-play-state: running;
+}
+/* @keyframes o1 {
+
+   100% {background-position: 0px top;}
+} */
+@keyframes t1h {
+  /* 0% {background-position: -320px top;}
+  33% {background-position: -750px top;}
+  66% {background-position: -1140px top;} */
+  0% {background-position: -99.8% top;}
+  33% {background-position: -193.7% top;}
+  66% {background-position: -286% top;}
+}
+/* @keyframes f1 {
+  0% {background-position: -400% top;}
+  33% {background-position: -499.% top;}
+  66% {background-position: -599% top;}
+} */
 
 .corobka3 {
 position: relative;
@@ -432,10 +537,10 @@ box-sizing: border-box;
 }
 
 .r {
-  height: 142%;
-      width: 116%;
-      margin-top: -12%;
-      margin-left: -8%;
+  height: 160%;
+  width: 119%;
+  margin-top: -19%;
+  margin-left: -9%;
 display: block;
 position: relative;
 background: url("images/r.png");
@@ -576,7 +681,7 @@ border: 3px solid #FFFFFF;
 box-sizing: border-box;
 }
 
-.o {
+/* .o {
   height: 140%;
   width: 124%;
   margin-left: -10%;
@@ -604,6 +709,68 @@ box-sizing: border-box;
 
 .o:hover {
 animation-play-state: running;
+} */
+
+.o1 {
+  background: url('images/o6.png');
+  width: 285px;
+  height: 291px;
+    left: 104px;
+    top: -21px;
+  display: block;
+  animation: o1 2s alternate infinite;
+  position: absolute;
+  background-position: 0px top;
+  background-size: auto 100%;
+}
+.o1-h {
+  background: url('images/o6.png');
+  width: 296px;
+  height: 311px;
+  display: block;
+  left: -10px;
+  top: -27px;
+  right: 0;
+  background-position: -100px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: hh1 1s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.o1-f {
+  background: url('images/o6.png');
+  width: 346px;
+  height: 353px;
+  display: block;
+  left: -56px;
+  right: 0;
+  top: -48.8px;
+  background-position: -400px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: f1 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+.o1:hover .o1-h, .o1:hover .o1-f {
+  animation-play-state: running;
+}
+/* @keyframes o1 {
+
+   100% {background-position: 0px top;}
+} */
+@keyframes hh1 {
+  /* 0% {background-position: -320px top;}
+  33% {background-position: -750px top;}
+  66% {background-position: -1140px top;} */
+  0% {background-position: -99.8% top;}
+  33% {background-position: -198.2% top;}
+  66% {background-position: -297.7% top;}
+}
+@keyframes f1 {
+  0% {background-position: -400% top;}
+  33% {background-position: -499.% top;}
+  66% {background-position: -599% top;}
 }
 
 .corobka8 {
@@ -649,7 +816,7 @@ margin-left: -0.3%;
 border: 3px solid #FFFFFF;
 box-sizing: border-box;
 }
-
+/*
 .tr {
 height: 135%;
 width: 66%;
@@ -666,6 +833,49 @@ animation-play-state: paused;
 
 .tr:hover {
   animation-play-state: running;
+} */
+.tr1 {
+  background: url('images/t.png');
+  width: 97px;
+  height: 115px;
+  left: 137px;
+  top: 10px;
+  display: block;
+  animation: t1 2s alternate infinite;
+  position: absolute;
+  background-position: 0px top;
+  background-size: auto 100%;
+}
+.tr1-h {
+  background: url('images/t.png');
+  width: 163.5px;
+      height: 132px;
+      display: block;
+      left: -48px;
+      top: -9px;
+
+  right: 0;
+  background-position: -100px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: tr1h 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.tr1:hover .tr1-h{
+  animation-play-state: running;
+}
+/* @keyframes o1 {
+
+   100% {background-position: 0px top;}
+} */
+@keyframes tr1h {
+  /* 0% {background-position: -320px top;}
+  33% {background-position: -750px top;}
+  66% {background-position: -1140px top;} */
+  0% {background-position: -99.8% top;}
+  33% {background-position: -193.7% top;}
+  66% {background-position: -286% top;}
 }
 
 .corobka10 {
@@ -706,7 +916,7 @@ border: 3px solid #FFFFFF;
 box-sizing: border-box;
 }
 
-.y {
+/* .y {
   height: 125%;
       width: 84%;
       margin-top: 1%;
@@ -722,6 +932,61 @@ box-sizing: border-box;
 
 .y:hover {
 animation-play-state: running;
+} */
+
+.ye1 {
+  background: url('images/y2.png');
+  width: 69px;
+  height: 101px;
+  left: 90px;
+  top: 14px;
+  display: block;
+  position: absolute;
+  background-position: 0px top;
+  background-size: auto 100%;
+}
+.ye1-h {
+  background: url('images/y2.png');
+  width: 105px;
+  height: 107px;
+  display: block;
+  left: -28px;
+  top: -4px;
+  right: 0;
+  background-position: -100px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: ye1h 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.ye1-f {
+  background: url('images/y2.png');
+  width: 101px;
+  height: 105px;
+  display: block;
+  left: -29px;
+  top: -10px;
+  right: 0;
+  background-position: -400px top;
+  background-size: auto 100%;
+  position: absolute;
+  animation: ye1f 2s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+.ye1:hover .ye1-h, .ye1:hover .ye1-f {
+  animation-play-state: running;
+}
+
+@keyframes ye1h {
+  0% {background-position: -100% top;}
+  33% {background-position: -293.8% top;}
+  66% {background-position: -310.4% top;}
+}
+@keyframes ye1f {
+  0% {background-position: -502.8% top;}
+  66% {background-position: -600% top;}
+  /* 66% {background-position: -780% top;} */
 }
 
 .corobka12{
@@ -1172,6 +1437,30 @@ margin-left: 6%;
       color: black;
 }
 
+.hse2 {
+  position: relative;
+  width: 79%;
+      margin-left: 17.5%;
+      margin-top: 1.5%;
+      height: 40%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 11px;
+      color: black;
+}
+
+.hse3 {
+  position: relative;
+  width: 79%;
+      margin-left: 17.5%;
+      margin-top: 1.5%;
+      height: 40%;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 11px;
+      color: black;
+}
+
 .good {
   position: relative;
   width: 20%;
@@ -1188,10 +1477,19 @@ margin-left: 6%;
 
 /* RAMKI */
 
-.procherkb {
+.procherkl {
 position: relative;
 width: 17.3584906%;
 height: 6%;
+margin-top: -2.3%;
+margin-left: 11%;
+border: 3px solid #FFFFFF;
+}
+
+.procherkb {
+position: relative;
+width: 17.3584906%;
+height: 0%;
 margin-top: -2.3%;
 margin-left: 11%;
 border: 3px solid #FFFFFF;
@@ -1457,13 +1755,19 @@ border: 2px solid #FFFFFF;
 
   <p class="good">хорошего просмотра!</p>
   <div class="ramka8">
-      <p class="hse">hse adc codes {2020} vera pavlova</p>
+      <p class="hse">hse adc</p>
+      <p class="hse2">{2020}</p>
+      <p class="hse3">vera pavlova</p>
   </div>
 </div>
 
           <div class="ramka2">
   <div class="rop">
-  <div class="vibration">
+    <div class="y1">
+      <div class="y1-h"></div>
+      <div class="y1-f"></div>
+  <!-- <div class="vibration"> -->
+
   </div>
   </div>
   <div class="corobka1">
@@ -1471,7 +1775,10 @@ border: 2px solid #FFFFFF;
   </div>
   </div>
   <div class="corobka2">
-  <div class="t"></div>
+  <!-- <div class="t"> -->
+  <div class="t1">
+    <div class="t1-h"></div>
+  </div>
   </div>
     <div class="corobka3">
     <div class="r"></div>
@@ -1486,20 +1793,32 @@ border: 2px solid #FFFFFF;
     <div class="f"></div>
   </div>
     <div class="corobka7">
-    <div class="o"></div>
+      <div class="o1">
+        <div class="o1-h"></div>
+        <div class="o1-f"></div>
+      </div>
+    <!-- <div class="o"></div> -->
   </div>
     <div class="corobka8">
     <div class="sh"></div>
   </div>
     <div class="corobka9">
-    <div class="tr"></div>
+    <!-- <div class="tr"></div> -->
+    <div class="tr1">
+      <div class="tr1-h"></div>
+    </div>
       </div>
       <div class="corobka10">
       <div class="rt"></div>
         </div>
         <div class="corobka11">
-        <div class="y"></div>
+        <!-- <div class="y"></div> -->
+        <div class="ye1">
+          <div class="ye1-h"></div>
+          <div class="ye1-f"></div>
           </div>
+            </div>
+
           <div class="corobka12">
           <div class="eb"></div>
             </div>
