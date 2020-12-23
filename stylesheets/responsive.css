@@ -10,7 +10,20 @@ div .hse {display: none;}
 div .hse2 {display: none;}
 div .hse3 {display: none;}
 }
-
+/* @media all and (max-width: 1920px) and (min-width: 1080px) {
+div .corobka3 {height: 18.7%;}
+div .o1 {left: 128px;}
+div .rating {font-size: 55px;}
+div .special {margin-left: 272%;}
+div .pyat {font-size: 25px;}
+div .kirill {width: 154.844607%;margin-left: 138%;font-size: 25px;}
+div .bukvi {margin-left: 136%;}
+div .dvad {font-size: 11px;}
+div .nazvanie {font-size: 11px;}
+div .nol {font-size: 11px;margin-left: 294%;}
+div .ss {font-size: 32px;}
+div .drama {margin-left: 12%;font-size: 15px;}
+} */
 @media all and (max-width: 1792px) and (min-width: 1057px) {
 
   div .ramka7 {display: none;}
@@ -24,11 +37,30 @@ div .hse3 {display: none;}
   div .hse2 {display: none;}
   div .hse3 {display: none;}
 }
+
+@media all and (max-width: 1791px) and (min-width: 1679px) {
+
+  div .ramka7 {display: none;}
+  div .ramka6 {display: none;}
+  div .ramka8 {display: none;}
+  div .good {display: none;}
+  div .shriftetta1 {display: none;}
+  div .shriftetta3 {display: none;}
+  div .shriftetta2 {display: none;}
+  div .hse {display: none;}
+  div .hse2 {display: none;}
+  div .hse3 {display: none;}
+  div .ss {width: 80.686411%;margin-left: 13%;}
+  div .drama {width: 91.686411%;margin-left: 7%;}
+  div .bukvi {width: 205.689214%;font-size: 19px;}
+  div .kirill {width: 147.844607%;}
+  div .ofbilet { width: 197.116788%;}
+}
 @media all and (max-width: 1680px){
 
-div .kirill {width: 147.844607%;}
-div .ofbilet { width: 197.116788%;}
-div .ss {width: 80.686411%;margin-left: 13%;}
+div .kirill {width: 162.844607%;}
+div .ofbilet {    width: 227.116788%;}
+div .ss {width: 106.686411%;margin-left: 13%;}
 div .drama {width: 91.686411%;margin-left: 7%;}
 div .bukvi {width: 205.689214%;font-size: 19px;}
 div .nol {margin-left: 293%;}
@@ -49,6 +81,36 @@ div .tr1-h {width: 142.5px;height: 115px;left: -44px;}
       background-position: -286% top;
 }
 }
+}
+
+@media all and (max-width: 1613px) and (min-width: 1424px) {
+  div .special {font-size: 8px;}
+  div .ofbilet {font-size: 8px;}
+  div .nazvanie {font-size: 8px;margin-top: -26%;}
+  div .dvad {font-size: 8px;margin-top: -4%;}
+  div .ss {font-size: 25px;}
+  div .drama {margin-left: 11%;font-size: 11px;margin-top: -4%;}
+  div .premier {font-size: 11px;}
+  div .cast {font-size: 11px;}
+  div .director {font-size: 11px;}
+  div .rate {font-size: 11px;}
+  div .pyat {margin-top: -18%;font-size: 20px;}
+  div .kirill {margin-left: 136%;margin-top: -24%;font-size: 19px;}
+  div .bukvi {margin-top: -33%;font-size: 17px;}
+  div .rating {margin-top: -25%;font-size: 42px;}
+  div .nol {margin-top: 26%;font-size: 8px;}
+  div .data {font-size: 11px;}
+  div .january {font-size: 11px;}
+  div .cena {font-size: 11px;    margin-top: 18%;}
+  div .trik {font-size: 11px;margin-top: 9%;}
+  div .zal {font-size: 11px;margin-top: -26%;}
+  div .treti {font-size: 11px;margin-top: 10%;}
+  div .mesto {font-size: 11px;    margin-top: 16%;}
+  div .eleven {font-size: 11px;}
+  div .tariff {font-size: 11px;margin-left: 68%;margin-top: -27%;}
+  div .premium {font-size: 11px;margin-left: 63%;margin-top: 12%;}
+  div .vrema {font-size: 11px;}
+  div .tridcat {font-size: 11px;}
 }
 
 @media all and (max-width: 1440px){
@@ -154,7 +216,49 @@ div .o1-h {width: 225px;height: 242px;left: -11px;top: -15px;}
 div .ye1-h {width: 78px;height: 78px;left: -18px;top: -4px;}
 div .ye1 {width: 68px;height: 77px;left: 73px;top: 14px;}
 div .ye1-f {left: -35px;}
+}
+@media all and (max-width: 1713px) and (min-width: 1461px) {
+div .o1 {top: -42px;}
+div .rating {margin-left: 103%;margin-top: -28%;font-size: 46px;}
+div .premium {font-size: 13px;}
+div .ramka1 {margin-top: 2.4%;}
+div .ofbilet {width: 208.116788%;}
+div .kirill {width: 153.844607%;}
+div .tr1 {top: 12px;}
+div .ye1 {top: 9px;}
+}
 
+@media all and (max-width: 1615px) and (min-width: 1441px) {
+div .o1 {left: 123px;top: 24px;width: 179px;height: 202px;}
+div .o1-h {width: 206px;height: 216px;top: -27px;left: -8px;}
+div .o1-f {width: 273px;height: 279px;left: -56px;top: -62.8px;}
+div .tr1 {width: 77px;height: 88px;top: 19px;}
+div .tr1-h {width: 125px;height: 101px;left: -38px;top: -9px;}
+div .rating {height: 108%;margin-left: 99%;margin-top: -27%;font-size: 43px;}
+div .ofbilet {width: 211.116788%;}
+div .drama {width: 92.686411%;font-size: 12px;margin-left: 10%;}
+div .ss {margin-left: 15%;font-size: 25px;width: 126.686411%;}
+div .kirill {width: 154.844607%;}
+div .ye1 {width: 69px;height: 82px;left: 90px;top: 17px;}
+div .ye1-f {left: -33px;}
+div .ye1-h {width: 80px;height: 83px;left: -22px;top: -4px;}
+div .premium {font-size: 12px;}
+div .y1 {left: 97px;top: 6px;}
+div .t1 {top: 20px;left: 94px;}
+}
+
+@media all and (max-width: 1410px) and (min-width: 851px) {
+div .rating {width: 180.047532%;margin-left: 102%;margin-top: -25%;font-size: 38px;}
+div .kirill {width: 157.844607%;}
+div .ofbilet {width: 207.116788%;}
+div .bukvi {margin-top: -37%;}
+div .o1 {top: -28px;}
+}
+
+@media all and (max-width: 1369px) and (min-width: 1075px) {
+div .rating {width: 180.047532%;margin-left: 102%;margin-top: -25%;font-size: 38px;}
+div .kirill {width: 157.844607%;}
+div .ofbilet {width: 207.116788%;}
 }
 
 @media all and (max-width: 1366px){
@@ -170,7 +274,7 @@ div .smallqvadrat2 {height: 107%;margin-top: -0.6%;}
 div .smallqvadrat3 {height: 107.5%;margin-top: -0.7%;}
 div .smallqvadrat4 {height: 109%;margin-top: -0.8%;width: 31.5%;}
 div .rop {width: 33.875%;}
-div .rating {font-size: 40px;margin-top: -26%;}
+div .rating {font-size: 38px;margin-top: -26%;}
 div .corobka1 {width: 34.875%;margin-left:33.3%;}
 div .corobka2 {width: 32.3%;margin-left:68%;}
 div .corobka4 {width: 50.4%;margin-left:-0.2%;margin-top: -0.2%;height: 36.3%;}
@@ -212,15 +316,21 @@ div .procherkb2 {margin-top: -37.3%;}
 div .procherkb4 {margin-top: -3.3%;}
 div .ss {margin-left: 11.5%;}
 div .drama {margin-left: 9%;}
-div .ofbilet {width: 205%;}
+div .ofbilet {width: 228%;}
 div .smallline2 {height: 55%;}
 div .y1 {left: 130px;}
 div .t1 {width: 97px;height: 87px;top: 27px;left: 113px;}
 div .ye1 {left: 126px;}
 div .o1 {left: 124px;top: -31px;width: 225px;height: 238px;}
 }
+@media all and (max-width: 1365px)and (min-width:1281px){
+div .ss {margin-left: 9.5%;}
+div .drama {margin-left: 9%;font-size: 10px;}
 
+}
 @media all and (max-width: 1280px)and (min-width:800px){
+  body {height: 800px;}
+  html {height: 800px;}
 div .y1 {left: 119px;top: 10px;}
 div .t1 {top: 18px;left: 104px;}
 div .ye1 {top: 10px;}
@@ -235,11 +345,11 @@ div .smallqvadrat4 {width: 31.6%;margin-left: -0.6%;}
 /* div .biletramka2 {height: 107.4%;margin-top: -37.5%;width: 53.3%;}
 div .biletramka1 {margin-top: -0.8%;height: 100.3%;margin-left: -0.3%;width: 50%;} */
 div .rating {font-size: 35px;}
-div .nol {width: 37.281536%;}
+div .nol {width: 60.281536%;}
 div .special {margin-top: -4%;margin-left: 255%;}
 div .codeimg {width: 95.5%;height: 75%;margin-top: 3%;margin-left: 2%;}
 div .ramka1copy {margin-top: -8%;height: 18.8%;}
-div .ofbilet {margin-top: -32%; width: 222%;}
+div .ofbilet {margin-top: -32%;width: 246%;}
 div .dvad {margin-left: 87%;}
 div .ss {font-size: 22px;margin-left: 14%;}
 div .drama {margin-left: 10%;font-size: 10px;}
@@ -271,7 +381,109 @@ div .hse {display: none;}
 div .hse2 {display: none;}
 div .hse3 {display: none;}
 }
+@media only screen and (max-width: 1239px) and (min-width: 1187px){
+div .ss {margin-left: 11%;}
+div .drama {margin-left: 8%;}
+div .procherksm5 {margin-top: -4%;margin-left: 46%;}
+div .shtrih {height: 37.3%;margin-top: -0.8%;}
+div .bukvi {margin-top: -44%;}
+div .dvad {margin-left: 86%;}
+div .ramka2 {margin-top: -52.06%;}
+div .procherkb4 {margin-top: -3.5%;}
+div .smallline2 {height: 52%;margin-top: -32%;}
+div .premium {margin-top: 10%;font-size: 9px;}
+div .special {margin-left: 262%;font-size: 7px;}
+div .procherkb2 {margin-top: -36.5%}
+div .ofbilet {font-size: 7px;}
+}
+@media only screen and (max-width: 1187px) and (min-width: 1026px){
+  div .ss {margin-left: 11%;font-size: 21px;}
+  div .o1 {top: -28px;left: 112px;}
+  div .drama {margin-left: 10%;width: 101.686411%;font-size: 9px;}
+  div .nol {margin-left: 291%;}
+  div .procherksm5 {margin-top: -4%;margin-left: 46%;}
+  div .shtrih {height: 37.3%;margin-top: -0.8%;}
+  div .bukvi {margin-top: -46%;font-size: 13px;margin-left: 136%;}
+  div .dvad {margin-left: 86%;font-size: 7px;}
+  div .nazvanie {font-size: 7px;}
+  div .ramka2 {margin-top: -52.06%;}
+  div .procherkb4 {margin-top: -3.5%;}
+  div .smallline2 {height: 52%;margin-top: -32%;}
+  div .premium {margin-top: 10%;font-size: 9px;}
+  div .special {margin-left: 262%;font-size: 7px;}
+  div .procherkb2 {margin-top: -36.5%}
+  div .ofbilet {font-size: 7px;}
+  div .ye1 {top: 7px;left: 110px;}
+  div .corobka7 {height: 31.1%;}
+  div .corobka10 {height: 15.7%;}
+  div .corobka11 {height: 15.7%;margin-top: -12.1%;}
+  div .kirill {margin-top: -28%;width: 177.844607%;}
+  div .tr1 {left: 91px;top: 6px;}
+  div .rating {font-size: 31px;}
+  div .t1 {top: 9px;left: 85px;}
+  div .y1 {left: 102px;top: 1px;}
+}
 
+@media only screen and (max-width: 1110px) and (min-width: 1022px){
+div .y1 {left: 102px;top: 11px;width: 58px;height: 69px;}
+div .y1-h {width: 71px;height: 70px;left: -15px;top: -3px;}
+div .y1-f {width: 83px;height: 86.8px;left: -30px;top: -5.8px;}
+div .t1 {top: 21px;left: 86px;width: 83px;height: 61px;}
+div .t1-h {width: 95.5px;height: 77px;left: -29px;top: -9px;}
+div .tariff {margin-left: 64%;}
+div .premium {margin-left: 61%;}
+div .tr1 {left: 101px;top: 14px;height: 58px;width: 76px;}
+div .tr1-h {width: 87px;height: 70.5px;left: -28px;}
+div .corobka10 {margin-top: -12%;}
+div .ramka2 {height: 88.3%;}
+div .corobka9 {margin-top: -0.1%;}
+div .o1 {top: -11px;left: 112px; width: 135px;height: 159px;}
+div .o1-h {width: 168px;height: 172px;left: -1px;}
+div .o1-f {width: 228px;height: 230px;left: -38px;top: -55.8px;}
+/* div .bukvi {margin-top: -48%;font-size: 12px;} */
+div .biletramka2 {margin-top: -35.4%;}
+div .biletramka1 {margin-top: -0.9%;}
+div .ss {margin-left: 9%;}
+div .special {margin-left: 255%;}
+div .drama {margin-left: 7%;}
+div .ye1 {left: 101px;width: 68px;height: 63px;}
+div .ye1-h {width: 72px;height: 72px;left: -17px;top: -6px;}
+div .ye1-f {width: 93.5px;height: 98px;left: -38px;}
+}
+@media only screen and (max-width: 1066px) and (min-width: 1025px){
+div .special {font-size: 6px;margin-left: 263%;}
+div .ramka2 {margin-top: -52%;}
+div .ofbilet {font-size: 6px;}
+div .nazvanie {font-size: 6px;}
+div .dvad {font-size: 6px;}
+div .ss {margin-left: 8%;font-size: 20px;}
+div .drama {font-size: 8px;margin-left: 9%;}
+div .kirill {margin-top: -31%;font-size: 14px;}
+div .premier {font-size: 9px;}
+div .cast {font-size: 9px;}
+div .rate {font-size: 9px;}
+div .director {font-size: 9px;}
+div .pyat {font-size: 14px;}
+div .bukvi {margin-top: -51%;font-size: 12px;}
+div .rating {font-size: 28px;}
+div .nol {font-size: 6px;margin-left: 301%;}
+div .biletramka2 {margin-top: -35.2%;}
+div .data {font-size: 8px;}
+div .january {font-size: 8px;}
+div .cena {font-size: 8px;}
+div .trik {font-size: 8px;}
+div .zal {font-size: 8px;}
+div .treti {font-size: 8px;}
+div .mesto {font-size: 8px;}
+div .eleven {font-size: 8px;}
+div .tariff {font-size: 8px;}
+div .premium {font-size: 8px;}
+div .vrema {font-size: 8px;}
+div .tridcat {font-size: 8px;}
+div .smallline2 {margin-top: -32%;}
+div .procherksm5 {margin-top: -4%;margin-left: 45.7%;}
+div .procherkb4 {margin-top: -4%;}
+}
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 }
 
@@ -310,7 +522,7 @@ div .rate {font-size: 12px;margin-top: -6%;}
 div .pyat {margin-top: -12%;}
 div .kirill {margin-top: -14%;}
 div .bukvi {margin-top: -28%;margin-left: 137%;}
-div .rating {font-size: 37px;margin-left: 62%;margin-top: -15%;}
+div .rating {font-size: 37px;margin-left: 50%;margin-top: -15%;}
 div .nol { margin-top: 11%;font-size: 9px;}
 div .smallline {margin-top: -32%;;height: 56.5%;}
 div .smallline2 {height: 56%; margin-top: -29%;margin-left: 48.5%;}
@@ -429,13 +641,109 @@ div .o1 {left: 37px;top: 7px;width: 94px;height: 94px;}
 div .o1-h {width: 98px;height: 101px;left: -2px;top: -15px;}
 }
 
-/* @media all and (max-width: 767px){
-  div .ramka7 {display: none;}
-  div .ramka6 {display: none;}
-  div .ramka8 {display: none;}
-  div .good {display: none;}
-} */
+@media only screen and (max-device-width: 936px) and (min-device-width: 801px) {
+div .special {margin-top: -4%;margin-left: 269%;}
+div .rating {font-size: 30px;margin-left: 65%;}
+div .bukvi {font-size: 13px;margin-top: -34%;}
+div .kirill {font-size: 13px;margin-top: -16%;}
+div .pyat {font-size: 13px;margin-top: -14%;}
+div .premium {margin-left: 64%;}
+div .tariff {margin-left: 68%;}
+div .nazvanie {margin-top: -13%;font-size: 7px;}
+div .dvad {margin-left: 90%;font-size: 7px;}
+div .nol {font-size: 7px;margin-left: 299%;}
+div .ss {font-size: 22px;margin-left: 21%;}
+div .drama {margin-left: 25%;font-size: 8px;}
+div .january {margin-left: 73%;}
+div .tr1-h {width: 91.5px;height: 74.5px;left: -31px;top: -4px;}
+div .tr1 {top: 24px;left: 60px;height: 55px;width: 74px;}
+div .y1 {width: 46px;left: 66px;height: 47px;top: 8px;}
+div .y1-h {width: 52px;height: 50px;left: -10px;top: -1px;}
+div .y1-f {width: 61.6px;height: 65.8px;left: -31px;}
+}
 
+@media only screen and (max-device-width: 799px) and (min-device-width: 767px) and (orientation:portrait){
+  body {height: 1750px;}
+  html {height: 1750px;}
+div .rop {display: none;}
+div .corobka1 {display: none;}
+div .corobka2 {display: none;}
+div .corobka6 {display: none;}
+div .corobka11 {display: none;}
+div .ofbilet {margin-top: 7%;}
+div .ramka1 {height: 193.8%;width: 94.515625%;margin-top: 4.3%;margin-left: 2%;}
+div .special {margin-top: -4%;margin-left: 289%;}
+div .nazvanie {margin-top: -17%;font-size: 10px;}
+div .dvad {margin-left: 91%;margin-top: -3%;width: 7.421603%;font-size: 10px;}
+div .ramka1copy {margin-top: -7%;width: 100.9%;margin-left: -0.5%;}
+div .ss { font-size: 32px;margin-left: 22%;margin-top: 8%;width: 68.686411%;}
+div .drama {width: 80.686411%;margin-left: 20%;font-size: 14px;margin-top: -2%;}
+div .smalllqvadrat {height: 106%;width: 31.8%;margin-left: -0.3%;margin-top: -0.4%;}
+div .qvadrat2 {width: 100.8%;}
+div .smallqvadrat2 { margin-left: -0.3%;margin-top: -0.4%;height: 106%; width: 31.8%;}
+div .qvadrat1 {width: 100.8%;}
+div .qvadrat3 {width: 100.8%;}
+div .smallqvadrat3 {width: 31.9%;margin-left: -0.4%;margin-top: -0.4%;height: 105.4%;}
+div .qvadrat4 {width: 100.9%;margin-top: -0.5%;margin-left: -0.52%;}
+div .corobka9 {width: 48.7%;height: 102.6%;margin-top: -118.1%;margin-left: -0.8%; animation: paused;}
+div .smallqvadrat4 {margin-top: -0.4%;margin-left: -0.3%;height: 107%;width: 31.7%;}
+div .corobka10 {margin-left: 47.6%;width: 53.5%;height: 102.6%;margin-top: -44.5%;animation:paused;}
+div .premier {font-size: 16px;margin-top: 23%;}
+div .director {font-size: 16px;margin-top: 23%;}
+div .cast {font-size: 16px;margin-top: 23%;}
+div .rate {font-size: 16px;margin-top: -10%;}
+div .nol {margin-left: 295%;margin-top: 19%;font-size: 10px;}
+div .ramka2 {margin-top: 53.7%;margin-left: 2.4%;height: 69.4%;width: 93.5%; }
+div .rating {margin-left: 83%;margin-top: -21%;font-size: 54px;}
+div .pyat {margin-top: -13%;font-size: 22px;margin-left: 137%;}
+div .kirill {margin-top: -17%;font-size: 22px;margin-left: 138%;}
+div .bukvi {margin-top: -25%;font-size: 19px;width: 190.689214%;}
+div .rt {width: 111%;height: 101%;margin-top: -4%;margin-left: -3%;}
+div .tr {width: 90%;height: 90%;margin-top: -2%;margin-left: 6%;}
+div .ramka6 {width: 100.9%;height: 4%;margin-top: -89.8%;margin-left: -0.5%;}
+div .teethimg {margin-top: 3.8%;margin-left: -0.45%;width: 100.994%;}
+div .ramka8 {margin-top: 8%;width: 99.8%;height: 4.5%;}
+div .biletramka2 {margin-top: -20%;margin-left: 49%;width: 50.5%;height: 39%;}
+div .biletramka1 {margin-top: 81%;margin-left: 0.5%;height: 39%;}
+div .teethimg2 {margin-top: 4%;}
+div .ramka7 {width: 99.8%;height: 4%;margin-top: 13.4%;}
+div .shriftetta1 {margin-left: 2%; color: #FFFFFF;font-size: 10px;margin-top: 1.5%;}
+div .shriftetta3 {margin-left: 85.8%;margin-top: -1.6%;width: 16%;}
+div .shriftetta2 {margin-top: -1.5%;margin-left: 43.5%;}
+div .corobka5 {width: 101%;height: 36.3%;margin-top: -51.3%;margin-left: -0.5%;}
+div .b {margin-top: -4.5%;margin-left: 26%;height: 155%;width: 46%; animation: paused;}
+div .corobka4 {width: 25.79%;margin-left: -0.5%;margin-top: -0.4%;}
+div .good {width: 45%;margin-left: 30%;margin-top: 41%;font-size: 15px;}
+div .corobka7 {width: 26.2%;height: 36.4%;margin-left: 74.3%;margin-top: 19.8%;}
+div .shtrih {width: 99%;margin-left: 0.5%;margin-top: 14.8%;height: 45.7%;}
+div .cena {font-size: 14px;margin-top: 10%;margin-left: 11.5%;}
+div .trik {font-size: 14px;margin-left: 9.5%;}
+div .january {font-size: 14px;margin-left: 75%;margin-top: -5%;}
+div .zal {font-size: 14px;margin-top: -18%;}
+div .treti {font-size: 14px;margin-left: 76%;}
+div .vrema {font-size: 14px;margin-top: 3%;margin-left: 7%;}
+div .tridcat {font-size: 14px;width: 28.735849%;margin-left: 76%;margin-top: -4%;}
+div .mesto {font-size: 14px;margin-top: 10%;margin-left: 10%;}
+div .data {font-size: 14px;margin-top: 4%;}
+div .eleven {font-size: 14px;margin-left: 16%;margin-top: 10.2%;}
+div .tariff {font-size: 14px;margin-left: 70%;margin-top: -20%;}
+div .premium {font-size: 14px;margin-left: 66.5%;margin-top: 10%;}
+div .smallline {margin-left: 50.34%;margin-top: -23%;height: 67%;}
+div .procherkb3 {margin-top: -1.5%;}
+div .procherksm2 {margin-left: 46.5%;margin-top: -28%;}
+div .smallline2 {height: 64%;margin-top: -22%;}
+div .procherkb2 {margin-top: -26%;}
+div .procherkb4 {margin-top: -1.3%;}
+div .procherksm5 {margin-top: -2%;margin-left: 44.7%;}
+div .procherkb {margin-top: -1.7%;}
+div .hse {margin-left: 1.5%;}
+div .hse2 {margin-left: 42.5%;margin-top: -1.5%;}
+div .hse3 {width: 31%;margin-left: 74.5%;margin-top: -2%;}
+div .tr1 {height: 154px;left: 94px;top: 72px;width: 128px;}
+div .tr1-h {width: 242.5px;height: 177.5px;left: -38px;}
+div .o1 {left: 37px;top: 7px;width: 94px;height: 94px;}
+div .o1-h {width: 98px;height: 101px;left: -2px;top: -15px;}
+}
 @media only screen and (max-width: 760px) and (orientation:portrait){
 /* body {overflow: scroll; height: 750px;}
 html {overflow:scroll; height: 750px;} */
@@ -517,8 +825,6 @@ div .smallline2 {margin-top: -31.5%;margin-top: -38.5%;}
 }
 
 @media all and (max-width: 799px) and (orientation:landscape){
-/* body {overflow: scroll; height: 750px;}
-html {overflow:scroll; height: 750px;} */
 
 div .rop {display: none;}
 div .corobka1 {display: none;}
